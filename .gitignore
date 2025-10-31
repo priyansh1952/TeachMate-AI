@@ -1,0 +1,90 @@
+# ========== PYTHON ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+ENV/
+
+# ========== NODE / REACT ==========
+node_modules/
+dist/
+build/
+.npm/
+.next/
+*.log
+
+# ========== ENVIRONMENT VARIABLES ==========
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ========== MODELS / ML ARTIFACTS ==========
+*.joblib
+*.pkl
+*.npy
+*.npz
+*.bin
+*.pt
+*.onnx
+*.dat
+
+# Large PDF & Model Dumps (but allow docs/)
+*.pdf
+!docs/**/*.pdf
+
+# Media Files
+*.mp3
+*.mp4
+*.wav
+*.webm
+
+# ========== CHUNKS / RAG EMBEDDINGS ==========
+storage/
+chunk_outputs/
+merged_chunks/
+audios/
+videos/
+vector_store/
+db/
+tmp/
+json_outputs/
+unused/
+
+# Embedding / Chunk Files
+chunk_embeddings.json
+merged_chunk_embeddings.json
+embeddings.joblib
+merged_embeddings.joblib
+
+# Chat Debug / Temporary Files
+last_answer.txt
+last_prompt.txt
+prompt.txt
+prompt_debug.txt
+response.txt
+progress_checkpoint.txt
+
+# Checkpoint / cache for long processes
+.cache/
+*.cache
+cache/
+__cache__/
+
+# ========== RUNTIME / LOGS ==========
+logs/
+*.log
+
+# ========== OS JUNK ==========
+.DS_Store
+Thumbs.db
+
+# ========== IDE JUNK ==========
+.vscode/
+.idea/
+*.swp
+*.swo
